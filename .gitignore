@@ -1,0 +1,19 @@
+# Datasets (download from Kaggle, don't commit)
+KDD*
+*.arff
+nsl-kdd/
+index.html
+*.jpg
+
+# Trained model (regenerate by running the script)
+*.joblib
+
+# Python
+__pycache__/
+*.pyc
+.venv/
+
+# Secrets - never commit
+kaggle.json
+access_token
+.env
